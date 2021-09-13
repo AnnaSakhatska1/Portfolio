@@ -1,0 +1,27 @@
+.menu {
+  &__list {
+    display: flex;
+    justify-content: space-between;
+
+    &.active {
+      display: block;
+    }
+  }
+  &__item {
+    position: relative;
+    margin: 30px 0 30px;
+  }
+  &__link {
+    display: flex;
+    color: #828282;
+
+    font-size: 25px;
+    line-height: 22px;
+    font-weight: 700;
+    &:hover,
+    &:active,
+    &:focus {
+      color: black;
+    }
+  }
+}

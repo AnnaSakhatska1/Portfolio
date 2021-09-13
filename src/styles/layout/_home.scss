@@ -1,0 +1,25 @@
+.portfolio-home {
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__content {
+    align-self: center;
+    justify-content: center;
+  }
+  &__title {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: bolder;
+  }
+  &__position {
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 22px;
+  }
+  &__photo {
+    width: 600px;
+    margin: 15px;
+    margin-bottom: 100px;
+  }
+}

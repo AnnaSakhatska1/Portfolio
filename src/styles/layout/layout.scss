@@ -1,11 +1,22 @@
-@import "header";
+// @import "header";
+@import "menu";
+@import "home";
+@import "about";
 
 .portfolio {
   &__header {
-    // position: relative;
+    position: relative;
     min-width: 320px;
     max-width: 1200px;
     margin: 0 auto;
-    background-color: aqua;
+    border-bottom: 2px solid #828282;
+  }
+  &__home {
+    margin-top: 10px;
+    min-width: 320px;
+  }
+  &__about,
+  &__portfolio {
+    background: #f6f6f6;
   }
 }
