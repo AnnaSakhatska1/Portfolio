@@ -1,0 +1,27 @@
+.portfolio-portfolio {
+  &__container {
+    display: grid;
+    align-items: center;
+    grid-template-areas: "photo1 photo3" "photo2 photo4";
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+
+  &__img {
+    height: 350px;
+    width: 100%;
+    padding: 3px;
+  }
+}
+.photo1 {
+  grid-area: photo1;
+}
+.photo2 {
+  grid-area: photo2;
+}
+.photo3 {
+  grid-area: photo3;
+}
+.photo4 {
+  grid-area: photo4;
+}

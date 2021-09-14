@@ -1,7 +1,9 @@
-// @import "header";
 @import "menu";
 @import "home";
 @import "about";
+@import "skills";
+@import "portfolio";
+@import "footer";
 
 .portfolio {
   min-width: 320px;
@@ -17,6 +19,12 @@
   }
   &__about,
   &__portfolio {
-    background: #766f6f;
+    background: #f6f6f6;
+    color: #211111;
+    padding-bottom: 20px;
+  }
+  &__skills,
+  &__footer {
+    padding-bottom: 20px;
   }
 }

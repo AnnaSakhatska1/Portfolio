@@ -1,0 +1,29 @@
+.portfolio-skills {
+  //   &__container {
+  //   }
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    // flex-direction: column;
+    // padding: 15px;
+    // margin: 10px;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // margin: 20px;
+    // height: 100px;
+  }
+  &__img {
+    padding: 5px;
+  }
+  &__link {
+    font-size: larger;
+    font-weight: bold;
+    color: #211111;
+    align-self: center;
+    align-items: flex-end;
+    // padding: 2px;
+  }
+}

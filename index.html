@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./dist/styles/style.min.css" />
     <link
       rel="shortcut icon"
-      href="./dist/images/logo.svg"
+      href="/src/images/favicon.ico"
       type="image/x-icon"
     />
     <title>Portfolio</title>
@@ -50,7 +50,7 @@
           <div class="portfolio-home__content">
             Hello ! <span class="bold">I'm</span> Anna
           </div>
-          <div class="portfolio-home__mark">
+          <div class="portfolio-home__mark bold">
             Welcome to my portfolio! <br />
             I am a frontend developer from Kyiv
           </div>
@@ -58,12 +58,12 @@
       </section>
       <section id="aboutMe" class="portfolio-about portfolio__about">
         <div class="wrapper">
-          <h2 class="title white">About me</h2>
+          <h2 class="title">About me</h2>
           <div class="portfolio-about__conteiner">
             <div class="item1">
               <img
                 class="portfolio-about__photo"
-                src="/dist/images/1.jpg"
+                src="/dist/images/02.jpg"
                 alt="photo"
               />
             </div>
@@ -109,23 +109,175 @@
       </section>
       <section id="skills" class="portfolio-skills portfolio__skills">
         <div class="wrapper">
-          <h2 class="title black">Skills</h2>
-          <div class="portfolio-skills__container"></div>
+          <h2 class="title">Skills</h2>
+          <h3 class="portfolio-home__mark bold">
+            I use the following tools in my work:
+          </h3>
+          <div class="portfolio-skills__container">
+            <ul class="portfolio-skills__list">
+              <li class="portfolio-skills__item">
+                <a
+                  href="https://html5book.ru/html-html5/"
+                  class="portfolio-skills__link"
+                  ><img
+                    class="portfolio-skills__img"
+                    src="/dist/images/icons/html5.svg"
+                    alt="HTML5"
+                  />
+                  HTML5</a
+                >
+              </li>
+              <li class="portfolio-skills__item">
+                <img
+                  class="portfolio-skills__img"
+                  src="/dist/images/icons/css3.svg"
+                  alt="CSS3"
+                />
+                <a
+                  href="https://html5book.ru/css-css3/"
+                  class="portfolio-skills__link"
+                  >CSS3</a
+                >
+              </li>
+              <li class="portfolio-skills__item">
+                <img
+                  class="portfolio-skills__img"
+                  src="/dist/images/icons/js.svg"
+                  alt="Java Script"
+                />
+                <a
+                  href="https://learn.javascript.ru/"
+                  class="portfolio-skills__link"
+                  >Java Script</a
+                >
+              </li>
+              <li class="portfolio-skills__item">
+                <img
+                  class="portfolio-skills__img"
+                  src="/dist/images/icons/node.js.svg"
+                  alt="Node.js"
+                />
+                <a href="https://nodejs.org/uk/" class="portfolio-skills__link"
+                  >Node.js</a
+                >
+              </li>
+              <li class="portfolio-skills__item">
+                <img
+                  class="portfolio-skills__img"
+                  src="/dist/images/icons/jquery.svg"
+                  alt="Jquery"
+                />
+                <a href="https://jquery.com/" class="portfolio-skills__link"
+                  >Jquery</a
+                >
+              </li>
+              <li class="portfolio-skills__item">
+                <img
+                  class="portfolio-skills__img"
+                  src="/dist/images/icons/bootstrap-4.svg"
+                  alt="Bootstrap"
+                />
+
+                <a
+                  href="https://getbootstrap.com/"
+                  class="portfolio-skills__link"
+                  >Bootstrap</a
+                >
+              </li>
+              <li class="portfolio-skills__item">
+                <img
+                  class="portfolio-skills__img"
+                  src="/dist/images/icons/git.svg"
+                  alt="Git"
+                />
+                <a href="https://git-scm.com/" class="portfolio-skills__link"
+                  >Git</a
+                >
+              </li>
+              <li class="portfolio-skills__item">
+                <img
+                  class="portfolio-skills__img"
+                  src="/dist/images/icons/gulp.svg"
+                  alt="Gulp"
+                />
+                <a href="https://gulpjs.com/" class="portfolio-skills__link"
+                  >Gulp</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
 
       <section id="portfolio" class="portfolio-portfolio portfolio__portfolio">
         <div class="wrapper">
           <h2 class="title white">Portfolio</h2>
+          <div class="portfolio-portfolio__container">
+            <a
+              target="_blank"
+              href="https://annasakhatska1.github.io/The-Ham/"
+              class="portfolio-portfolio__link photo1"
+              ><img
+                class="portfolio-portfolio__img"
+                src="/dist/images/011.jpg"
+                alt="The Ham" /></a
+            ><a
+              target="_blank"
+              href="https://annasakhatska1.github.io/The-Forkio/"
+              class="portfolio-portfolio__link photo2"
+              ><img
+                class="portfolio-portfolio__img"
+                src="/dist/images/012.jpg"
+                alt="The Forkio" /></a
+            ><a
+              target="_blank"
+              href="https://annasakhatska1.github.io/The-Cards/"
+              class="portfolio-portfolio__link photo3"
+              ><img
+                class="portfolio-portfolio__img"
+                src="/dist/images/013.jpg"
+                alt="The Cards" /></a
+            ><a
+              target="_blank"
+              href="http://abc-photo-olezhansky.zzz.com.ua/"
+              class="portfolio-portfolio__link photo4"
+              ><img
+                class="portfolio-portfolio__img"
+                src="/dist/images/014.jpg"
+                alt="Online Store"
+            /></a>
+          </div>
         </div>
       </section>
     </main>
-
     <footer class="portfolio-footer portfolio__footer">
       <div class="wrapper">
-        <h2 class="title black">Contacts</h2>
-        <p>Want to know more or just chat? You are welcome!</p>
-        <button>Send message</button>
+        <h2 class="title">Contacts</h2>
+        <div class="portfolio-footer__container">
+          <div class="portfolio-footer__content">
+            Want to know more or just chat? <br />
+            You are welcome!
+          </div>
+          <div class="portfolio-footer__icons">
+            <div class="portfolio-footer__icon">
+              <a href="tel:+380505836576"
+                ><img src="/dist/images/cell-phone.png" alt="call"
+              /></a>
+            </div>
+            <div class="portfolio-footer__icon">
+              <a href="mailto:a.sakhatska@gmail.com">
+                <img src="/dist/images/email.png" alt="email"
+              /></a>
+            </div>
+            <div class="portfolio-footer__icon">
+              <a target="_blank" href="https://github.com/AnnaSakhatska1"
+                ><img
+                  src="/dist/images/github-logo-silhouette-in-a-square.png"
+                  alt="GitHub"
+              /></a>
+            </div>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
