@@ -1,25 +1,35 @@
 .portfolio-home {
   &__container {
+    height: 800px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    // align-self: center;
+    background-image: url(/dist/images/01.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #c7b39b;
+    background-position-x: center;
   }
   &__content {
     align-self: center;
     justify-content: center;
-  }
-  &__title {
-    font-size: 48px;
-    line-height: 60px;
-    font-weight: bolder;
-  }
-  &__position {
-    font-size: 20px;
-    font-weight: lighter;
-    line-height: 22px;
-  }
-  &__photo {
-    width: 600px;
+    text-align: center;
+    padding: 30px;
     margin: 15px;
-    margin-bottom: 100px;
+    font-size: 60px;
+    color: #240b0b;
+    border: 5px solid #211111;
+  }
+  &__mark {
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    color: #240b0b;
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
   }
 }
